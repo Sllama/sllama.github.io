@@ -1,52 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://cdecan.github.io/322/" />
-    <title>why are you here lol</title>
-<style>
-    body{
-        color:white;
-        background:darkslategray;
-        font-family: "Comic Sans MS", sans-serif;
-    }
-    h1,h2{
-        text-align: center;
-        color: lightskyblue;
-        background: darkslategray;
-	line-height: 30px;
-	height: 30px;
-	vertical-align: middle;
-    }
-    a{
-        text-decoration: none;
-        color: yellow;
-        background: darkslategray;
-    }
-    a:visited{
-        text-decoration: none;
-        color: silver;
-        background: darkslategray;
-    }
-    p img{
-        display: block;
-        margin-right: 1em;
-        max-width: 200em;
-    }
-	.aligncenter {
-    text-align: center;
-	}
-	.alignright { 
-        text-align: right; 
-        margin-right: 25%;
-    }
-	.marginauto {
-    margin: 10px auto 20px;
-    display: block;
-	}
-</style>
-</head>
-<body>
-    <h1 align="middle"><strong><a href="https://cdecan.github.io/322/"><strong> FOR CISC 322/326 CLICK HERE</strong></a></strong></h1>
-</body>
+<html>
+    <head>
+        <title>Connor's Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 class="title">My Projects</h1>
+        <div class="project-grid">
+            <div class="project-container">
+                <img class="thumbnail" src="project-images/qbnb.png">
+                <div class="preview">
+                    <div class="project-title">
+                        qbnb
+                    </div>
+                    <div class="description">
+                        A docker container of a CLI-based program based on airbnb. Uses Docker, Python, and SQL via Flask-SQLAlchemy and SQLite.
+                    </div>
+                    <div class="proj-link">
+                        <a href="https://hub.docker.com/r/sllama/qbnb_group22" target="_blank" style="margin-right: 130px;">Docker</a>
+                        <a href="https://github.com/cdecan/Group-22" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <img class="thumbnail" src="project-images/workshop.png">
+                <div class="preview">
+                    <div class="project-title">
+                        Steam Workshop Character
+                    </div>
+                    <div class="description">
+                        A custom character for the video game Rivals of Aether made using using GML.
+                    </div>
+                    <div class="proj-link">
+                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1890501881" target="_blank">Steam Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <img class="thumbnail" src="project-images/tanks.png">
+                <div class="preview">
+                    <div class="project-title">
+                        Tank Game
+                    </div>
+                    <div class="description">
+                        A game created with Java based on the Wii Play "Tanks!"" game
+                    </div>
+                    <div class="proj-link">
+                        <a href="google.com" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <img class="thumbnail" src="project-images/perceptron.png">
+                <div class="preview">
+                    <div class="project-title">
+                        Perceptron Model
+                    </div>
+                    <div class="description">
+                        A python program that trains a Perceptron to identify what class the data in a given dataset is from.
+                    </div>
+                    <div class="proj-link">
+                        <a href="https://github.com/cdecan/nn" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <img class="thumbnail" src="project-images/regression.png">
+                <div class="preview">
+                    <div class="project-title">
+                        Regression Model
+                    </div>
+                    <div class="description">
+                        A python neural network model to approximate a function that maps from real numbers to real numbers.
+                    </div>
+                    <div class="proj-link">
+                        <a href="https://github.com/cdecan/nn" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <img class="thumbnail" src="project-images/digits.png">
+                <div class="preview">
+                    <div class="project-title">
+                        Number Recognition
+                    </div>
+                    <div class="description">
+                        A python model that trains to recognize digits from a set of handwritten images using the MNIST dataset.
+                    </div>
+                    <div class="proj-link">
+                        <a href="https://github.com/cdecan/nn" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <img class="thumbnail" src="project-images/architecture.png">
+                <div class="preview">
+                    <div class="project-title">
+                        Architecture Analysis
+                    </div>
+                    <div class="description">
+                        An analysis of the conceptual and concrete architectures of Bitcoin Core.
+                    </div>
+                    <div class="proj-link">
+                        <a href="https://cdecan.github.io/322" target="_blank">Site Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>Connor Decan</p>
+            <a href="https://github.com/cdecan" target="_blank"><img class="github-logo" src="logos/github-mark-white.png"></a>
+            <a class="bottomcode" href="google.com">Source Code</a>
+        </div>
+    </body>
 </html>
