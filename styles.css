@@ -122,3 +122,23 @@ a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
+.experience-container {
+    text-align : center;
+    justify-content: center;
+    align-items: center;
+    margin: -20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.experience {
+    background-color: rgb(255, 255, 244);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #c8c8c8;
+    width: fit-content;
+    padding: 10px;
+    
+}
