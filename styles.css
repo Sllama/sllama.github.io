@@ -37,6 +37,7 @@ a:hover {
     grid-template-rows: 2fr 2fr;
     justify-content: center;
     box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+    transition-duration: 30ms
     
 }
 
