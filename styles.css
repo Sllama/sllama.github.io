@@ -33,16 +33,19 @@ a:hover {
     margin-bottom: 50px;
     background-color: rgb(249, 249, 249);
 
+
     display: grid;
     grid-template-rows: 2fr 2fr;
     justify-content: center;
     box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-    transition-duration: 30ms
+    transition: 60ms
     
 }
 
 .project-container:hover {
     box-shadow: -2px 7px 21px -1px rgba(0, 0, 0, 0.75);
+    background-color: #f3f3f3;
+
 }
 
 .thumbnail {
