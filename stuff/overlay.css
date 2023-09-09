@@ -27,8 +27,9 @@
   top: 80px;
   right: 116px;
   width: 200px;
-  height: 120px;
-  background: url("https://www.pngarts.com/files/5/Garfield-PNG-Image.png") no-repeat;
+  //height: 120px;
+  height: 200px
+  background: url("https://github.com/cdecan/cdecan.github.io/blob/main/stuff/Garfield-PNG-Image.png?raw=true") no-repeat;
   background-size: 100%;
 }
 :root .app-2CXKsg::after {
